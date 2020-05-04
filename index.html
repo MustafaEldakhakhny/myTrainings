@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <h1>Contact Us</h1> -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="index.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <form>
+        <h3>Please fill in the following fields</h3>
+        <div class="container1">
+            <div class="username1 formfield">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Username" required> 
+            </div>
+            <div class="email formfield">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+            </div>
+            <div class="password formfield">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="age">
+                <p class="age-label">Select your age:</p>
+                <input type="radio" name="age" value="0-25" id="option-1">
+                <label for="option-1" class="radio">0-25</label>
+                <input type="radio" name="age" value="26-50" id="option-2">
+                <label for="option-2" class="radio">26-50</label>
+                <input type="radio" name="age" value="51+" id="option-3" >
+                <label for="option-3" class="radio">51+</label>
+            </div>
+            <div class="question formfield">
+                <label for="questions">Security questions:</label><br>
+                <select name="questions" id="questions">
+                    <option value="q0"></option>
+                    <option value="q1">What's your favourite color?</option>
+                    <option value="q2">What's your mother's middle name?</option>
+                    <option value="q3">what's you favourite game in 2019?</option>
+                </select>
+            </div>  
+            <div class="answer formfield">
+                <label for="answer">Security answer:</label><br>
+                <input type="text" name="answer" id="answer" placeholder="Your answer is..">
+            </div>
+            <div class="bio formfield">
+                <label for="bio">Bio:</label>
+                <br>
+                <textarea name="bio" id="bio" cols="100%" rows="10" placeholder="About yourself.."></textarea>
+            </div>
+            <br><br>
+            <input type="submit" class="submit-btn">
+            <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem corporis neque id itaque, officia sed harum, quisquam non quis iusto, repudiandae quia nesciunt adipisci possimus dolore error ipsum assumenda provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quae dignissimos corrupti nemo nihil minus deserunt tempora facere ipsa, doloremque vel non sequi quos doloribus perspiciatis, ratione asperiores accusamus sapiente!</p> -->
+        </div>
+    </form>
+</body>
+</html>

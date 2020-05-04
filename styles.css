@@ -1,0 +1,71 @@
+/* check pseudo-class > focus, hover, valid and invalid to use in forms in w3schools */
+/* check pseudo-elements > ::after , to use in forms */
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: red
+}
+form{
+    background-color: whitesmoke;
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+}
+form h3{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 22px;
+}
+div.container1{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.formfield {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+label:not(.radio), .age-label{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+div.age{
+    margin-bottom: 10px;
+}
+div.formfield input,div.formfield select, textarea{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+    text-indent: 1%;
+    padding: 3px 0px;
+    border: 0px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+}
+
+.submit-btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 5px;
+}
