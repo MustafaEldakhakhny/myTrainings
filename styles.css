@@ -53,12 +53,17 @@ div.formfield input,div.formfield select, textarea{
     width: 100%;
     margin-top: 10px;
     font-size: 18px;
-    text-indent: 1%;
-    padding: 3px 0px;
+    text-indent: 2%;
+    padding: 5px 0px;
     border: 0px;
     border: 1px solid lightgray;
     border-radius: 5px;
+    font-family: inherit;
 
+}
+div.formfield input:focus,div.formfield select:focus, textarea:focus{
+    border: 1px solid gray;
+    outline: none;
 }
 
 .submit-btn{
@@ -68,4 +73,6 @@ div.formfield input,div.formfield select, textarea{
     font-weight: bolder;
     border: 0px;
     border-radius: 5px;
+    color: white;
+    background-color: rgb(24, 159, 201);
 }
